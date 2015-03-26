@@ -1,0 +1,24 @@
+<section id="players">
+	<div class="container-fluid-players">
+		<div class="text-center">
+			<h2>My Players:</h2>
+			<hr class="star-primary">
+		</div>
+		<div class="row">
+			<div class="col-md-5 text-center">
+				<input ng-model="newPlayer" /> <button class="btn btn-xs" ng-click="createPlayer()">Add New Player</button>
+			</div>
+			<div class="col-md-5 text-center">
+				<ul class="list-unstyled">
+					<li class="player" ng-repeat="player in players">{{player.title}}</li>
+				</ul>				
+			</div>
+		</div>
+<!-- 		<div class="row text-center">
+			<input ng-model="newPlayer" /> <button class="btn btn-xs" ng-click="createPlayer()">Add New Player</button>
+		</div> -->
+			<!-- <div class="bs-docs-section"> -->
+	</div>
+
+	<footer class="white navbar-fixed-bottom" ng-click="logout()"><a href=''>Logout</a></footer>
+</section>

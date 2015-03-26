@@ -1,0 +1,24 @@
+
+	<div class="container-fluid-manager">
+		<div class="text-center">
+			<h1>Team Time Manager</h1>
+			<hr class="star-primary">
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-center"><h2><strong>Players off field</strong></h2></div>
+			<div class="col-sm-6 text-center"><h2><strong>Players on field</strong></h2></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-center" ng-model="playerList">
+				<ul class="list-unstyled">
+					<li class="player" ng-repeat="player in players"><button class="btn-block btn-default btn-large" style="opacity: 0.9" ng-model="player.completed" ng-click="activePlayer()" /><h3>{{player.title}}</h3><timer></timer></li>
+				</ul>
+
+		   <div class="col-sm-6 text-center" ng-model="activeList\">
+		   	
+		   </div>
+
+
+	</div>
+		       <!--  <input type="button" ng-model="startButton" class="btn-success" ng-click="start()" ng-disabled="running" value="START" /> -->
+

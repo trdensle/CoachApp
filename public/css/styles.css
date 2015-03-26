@@ -1,0 +1,63 @@
+
+
+/*label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}*/
+
+.container-fluid-manager {
+	background: url(http://www.fullhdwpp.com/wp-content/uploads/Soccer-Field_www.FullHDWpp.com_.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
+
+/*http://images.freepicturesweb.com/img1/01/14/16.jpg*/
+
+.time {
+	color: red;
+}
+
+.navbar {
+	border: black;
+	border-bottom-width: 20px;
+	/*background-color: rgb(33, 97, 224);*/
+	background: linear-gradient(orange, white);
+
+
+}
+
+#timerz {
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+
+.btn-block {
+	border-radius: 60px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/*background-color: silver;*/
+	background: linear-gradient(gray, white);
+}
+ 
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+color:          black;
+text-shadow:    black;
+font-size: 20px;
+
+}
+
+/* Adjust Menu colors - Hover */
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-letter { 
+color:          silver;                      
+text-shadow:    none;
+}
+ 
